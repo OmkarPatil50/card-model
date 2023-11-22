@@ -23,7 +23,7 @@ function App() {
   }, [])
 
   return (
-    <div className="w-full h-screen box-border flex justify-center items-center	bg-slate-300">
+    <div className="w-full h-screen box-border flex justify-center items-center	bg-slate-200">
       {
         userData.map(user => {
           return <Card user={user} />
